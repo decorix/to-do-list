@@ -1,0 +1,18 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    display: flex;
+}
+
+.section__day {
+}
+
+.ul__day__li__item {
+    list-style-type: none;
+}
+
+.ul__day__li__item > input {
+
+}
