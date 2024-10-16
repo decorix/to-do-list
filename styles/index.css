@@ -1,18 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    background-color: #F3F6FD;
 }
 
-section {
+.app {
+   display: flex;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.panel {
+   background-color: white;
+   min-height: 100vh;
+   padding: 30px;
+
+}
+
+.menu {
     display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
 }
 
-.section__day {
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
 }
 
-.ul__day__li__item {
-    list-style-type: none;
-}
-
-.ul__day__li__item > input {
-
+.menu__item {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 14px rgba(62, 107, 224, 0.12);
+    border-radius: 14px;
+    border: none;
+    height: 45px;
+    width: 45px;
 }
