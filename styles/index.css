@@ -44,4 +44,36 @@ body {
     border: none;
     height: 45px;
     width: 45px;
+    cursor: pointer;
+}
+
+
+.menu__item:hover {
+    background: #6A6AFB;
+}
+
+.menu__item:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.menu__item__active {
+    background: #5051F9;
+}
+
+.menu__item__active img {
+    filter: brightness(0) invert(1);
+}
+
+
+.menu__add {
+    background: none;
+    border: 1px solid #CAD5FF;
+    border-radius: 14px;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.menu__add:hover {
+    background: #EFF2FF;
 }
