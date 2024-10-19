@@ -10,6 +10,7 @@ body {
 
 .app {
    display: flex;
+   gap: 50px;
 }
 
 .logo {
@@ -76,4 +77,15 @@ body {
 
 .menu__add:hover {
     background: #EFF2FF;
+}
+
+.content {
+    min-width: 900px;
+    margin-top: 45px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
 }
