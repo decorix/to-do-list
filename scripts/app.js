@@ -3,6 +3,12 @@
 let habbits = [];
 const HABBIT_KEY = 'HABBIT_KEY';
 
+// page
+
+const page = {
+	menu: document.querySelector('.menu__list')
+}
+
 // utils
 
 function loadData() {
@@ -52,4 +58,5 @@ function rerender(activeHabbitId) {
 // init
 (() => {
     loadData();
-})()
+    rerender(habbits[0].id)
+})();
